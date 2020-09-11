@@ -69,5 +69,8 @@ int insertPre_seq(PSeqList palist, int p, int x){
 //顺序表的插入
 /*在palist所指的顺序表下，下标为p元素之后插入一个值为x的元素，返回插入成功与否的标志*/
 int insertPost_seq(PSeqList palist, int p, int x){
+    int q;
+    if(palist-> >= palist->MAXNUM){
 
+    }
 }
